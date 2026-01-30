@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://b6mohv3yrlfku"]
+[gd_scene load_steps=3 format=3 uid="uid://b6mohv3yrlfku"]
+
+[ext_resource type="Texture2D" uid="uid://bbfihsx8jgbn1" path="res://icon.svg" id="1_7u4ml"]
+[ext_resource type="Script" uid="uid://x43de37w22n" path="res://Code/Examples/ExampleSprite.gd" id="2_16p8j"]
 
 [node name="Level" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(300, 250)
+rotation = 0.0024582697
+scale = Vector2(1.348333, 1.298696)
+texture = ExtResource("1_7u4ml")
+script = ExtResource("2_16p8j")
